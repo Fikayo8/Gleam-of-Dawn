@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+body {
+   background-image: url("images/forest.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.logo {
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 90px;
+    border: 2px solid orange;
+}
+.h1 {
+    color: orange;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+}
+p {
+    color: white;
+}
+.days {
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+}
+.border {
+    width: 15%;
+    background-color: white;
+    height: 0.7px;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    border: 2px solid white;
+    padding: 15px;
+    background-color: orange;
+}
+.content {
+position: absolute;
+top: 105%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 20px;
+}
+.content1 {
+position: absolute;
+top: 115%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 25px;
+font-weight: bold;
+}
+.flexcontainer {
+    position: absolute;
+    top: 130%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+figure .img1 {
+    width: 380px;
+    height: 450px;
+    border: 2px solid white;
+}
+figcaption {
+    color: white;
+    width: 380px;
+    text-align: center;
+    background-color: whit
+}
+.line {
+    text-decoration: underline;
+}
+.end {
+  display: flex;
+  text-align: center;
+  position: absolute;
+  top: 280%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn1 {
+    position: absolute;
+    top: 245%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 20px;
+    background-color: orange;   
+}
+.btn {
+    color: white;
+    text-decoration: none;
+}
+.btn1:hover {
+background-color: #ff7000;
+cursor: pointer;
+}
